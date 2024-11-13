@@ -25,7 +25,7 @@ Dự án này là một poster tương tác trên web dành cho Ngày Nhà giáo
 
 1. Clone the repository:
    ```
-   git clone https://github.com/logm1lo/Teacher-s-Day-Poster.git
+   git clone https://github.com/logm1lo/teachers-day-poster.git
    ```
 2. Open the project directory:
    ```
@@ -37,7 +37,7 @@ Dự án này là một poster tương tác trên web dành cho Ngày Nhà giáo
 
 1. Sao chép kho lưu trữ:
    ```
-   git clone https://github.com/logm1lo/Teacher-s-Day-Poster.git
+   git clone https://github.com/logm1lo/teachers-day-poster.git
    ```
 2. Mở thư mục dự án:
    ```
@@ -101,6 +101,42 @@ Important: Test Mode allows open read and write access, which is good for develo
 ---
 
 Quan trọng: Chế độ Kiểm tra cho phép quyền đọc và ghi mở, phù hợp cho phát triển. Đối với môi trường sản xuất, bạn nên thêm xác thực hoặc giới hạn quyền truy cập.
+
+### Step 5: Update Firebase Config in `script.js` and `index.html`
+
+In your project files (`script.js` and `index.html`), add your Firebase configuration under `firebaseConfig`. Replace placeholder values like `<your apiKey>` with your actual Firebase project values as shown below:
+
+```javascript
+// Add your own firebaseConfig here
+const firebaseConfig = {
+    apiKey: "<your apiKey>",
+    authDomain: "<your authDomain>",
+    databaseURL: "<your database URL>", 
+    projectId: "<your projectID>",
+    storageBucket: "<your storageBucket>",
+    messagingSenderId: "<your messagingSenderId>",
+    appId: "<your appId>",
+    measurementId: "<your measurementId>"
+};
+```
+
+---
+
+Trong các tệp dự án của bạn (`script.js` và `index.html`), thêm cấu hình Firebase của bạn vào `firebaseConfig`. Thay thế các giá trị giữ chỗ như `<your apiKey>` bằng các giá trị thực của dự án Firebase của bạn như sau:
+
+```javascript
+// Thêm cấu hình Firebase của bạn vào đây
+const firebaseConfig = {
+    apiKey: "<your apiKey>",
+    authDomain: "<your authDomain>",
+    databaseURL: "<your database URL>", 
+    projectId: "<your projectID>",
+    storageBucket: "<your storageBucket>",
+    messagingSenderId: "<your messagingSenderId>",
+    appId: "<your appId>",
+    measurementId: "<your measurementId>"
+};
+```
 
 ## Usage / Hướng dẫn sử dụng
 
