@@ -1,14 +1,15 @@
 // Firebase Configuration
+// Add your own firebaseConfig here
 const firebaseConfig = {
-    apiKey: "AIzaSyBinhf3-PpbAeQaQKToNnLHBBBxVQeLbp4",
-    authDomain: "yayy-93c45.firebaseapp.com",
-    databaseURL: "https://yayy-93c45-default-rtdb.asia-southeast1.firebasedatabase.app", // Make sure this matches your database URL
-    projectId: "yayy-93c45",
-    storageBucket: "yayy-93c45.appspot.com",
-    messagingSenderId: "281901593072",
-    appId: "1:281901593072:web:614dff92e64d25669c6d35",
-    measurementId: "G-JB3PWXQ56M"
-};
+        apiKey: "<your apiKey>",
+        authDomain: "<your authDomain>",
+        databaseURL: "<your database URL>", 
+        projectId: "<your projectID>",
+        storageBucket: "<your storageBucket>",
+        messagingSenderId: "<your messagingSenderId>",
+        appId: "<your appId>",
+        measurementId: "your measurementId"
+    };
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
