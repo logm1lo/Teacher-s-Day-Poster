@@ -32,6 +32,13 @@ Dự án này là một poster tương tác trên web dành cho Ngày Nhà giáo
    cd teachers-day-poster
    ```
 3. Open `index.html` in your browser to view the poster.
+### Change the Poster Image
+
+Make sure to replace the `poster.jpg` file with your own image. The image should be placed in the same directory as the `index.html` file, and the filename should be `poster.jpg`.
+
+---
+
+Hãy nhớ việc thay thế tệp `poster.jpg` bằng hình ảnh của riêng bạn. Hình ảnh nên được đặt cùng thư mục với tệp `index.html` và tên tệp phải là `poster.jpg`.
 
 ---
 
